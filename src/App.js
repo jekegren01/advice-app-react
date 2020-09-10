@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import './App.css'
+import advice from './images/advice.jpeg'
 
 
 class  App extends Component {
@@ -38,7 +39,7 @@ class  App extends Component {
 
             </div>
 
-
+            <img src={advice} alt="advice" />
         </div>  );
     }
 }
